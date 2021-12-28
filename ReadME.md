@@ -119,6 +119,33 @@ selector {
 + width
 - 1 rem=16px
 
+### Responce web design
+
+
+### Flex-box
+
++ display
+	- none
+	- inline
+	- block
+	- inline-block
++ align-content
++ align-self
++ align-item
++ position
+	- static
+	- relative
+	- absolute
+	- fixed
+	- sticky
+
+- display
+	- flex
+		- flex-wrap
+		- justify-content
+		- flex-direction
+		- flex-flow
+	
 ### Refernce links
 
 - [contract checker](https://webaim.org/resources/contrastchecker/?bcolor=ebeff3&fcolor=434956)
