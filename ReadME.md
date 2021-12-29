@@ -145,6 +145,70 @@ selector {
 		- justify-content
 		- flex-direction
 		- flex-flow
+
+### Booststrap 4.6
+
+- it is CSS framework
+
+
+
+
+- module (collection of functions and classes)
+- package (collection of modules)
+- library (collection of packages)
+- framworks (collection of library)
++ module --> Package --> library --> Framework
+
++ Types of modes
+	- offline
+	- online
+		- CDN links
+
++ background-color - bg
++ text-white
+
++ margin in Boostrap (m-*(0-5))
+	- 0 --> 0rem
+	- 1 --> 0.25rem (4px)
+	- 2 --> 0.5rem (8px)'
+	- 3 --> 1rem (16px)
+	- 4 --> 1.5rem (24px)
+	- 5 --> 3rem (48px)
+	- ml-5 (margin-left)
+    - mt (margin top)
+	- m (margin in all directions)
+	- mb (margin bottom)
+	- mr (margin right)
++ padding (padding-left --> pl-5)
+
++ colors
+	- primary
+	- secondary
+	- info
+	- succes
+	- warining
+	- danger
+	- light
+	- dark
+	- white
+
++ we can use colors classes for
+	- Buttons (btn btn-primary)
+	- text (text-white)
+	- background (bg-secondary)
+	- alerts (alert alert-primary)
+
++ Grid System
+	- col-sm-12 (Syntax 12 is no.of col)
+	- sm (small devices)
+	- md (medium devices)
+	- lg (large devices)
+	- xl (Extra large devices)
+
++ modal 
++ Table
+### Animation
+
 	
 ### Refernce links
 
