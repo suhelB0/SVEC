@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div id="child">
+            <h2 id="demo">heading
+                <span>Text</span>
+                <a href="">Link</a>
+            </h2>
+        </div>
+    </div>
+    <script>
+         //console.log("Welcome")
+        // function demo(){
+        //     var name="Suhel";
+        //     function list(){
+        //         var name1="muhammed";
+        //         console.log(name);
+        //     }
+        //     list();
+        //     console.log(name1)
+        // }
+        // console.log(demo())
+
+        var main=document.querySelector(".main")
+        var child=document.querySelector("#child")
+            
+            var heading=document.createElement('h1')
+            heading.textContent="Welcome"
+            child.appendChild(heading)
+            main.appendChild(child)
+            var content=document.getElementById("demo").innerHTML
+            console.log(content)
+    </script>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quisquam? Repellat natus sint voluptates et voluptatibus deserunt saepe nesciunt alias voluptas dolores labore inventore commodi in quos, quia exercitationem quis?</p> -->
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

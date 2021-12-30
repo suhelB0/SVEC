@@ -207,6 +207,127 @@ selector {
 
 + modal 
 + Table
+
+
+### JavaScript
+
++ In 1995 'Brenden Eich' introduced JavaScript (ES-262)			
++ JavaScript loosly touple and dynamic language 
++ It is a text based programing language and we can use in client- side and serverside (Node.js) for dynamic web applicatons
+- ECMA-Script (ES-version name) organization
+	- let & const
+	- map()
+	- arrow function
+	- classes
++ datatypes
+	- Number
+	- BigInt (2^53-1)
+	- String 
+	- Boolean
+	- Undefine
+	- Null
+	- Object
+	- Array
++ variables 
+	- var,let & const
+	- Scope
+		- fuction level --> var
+		- block level --> let & const
+	- Redefine --> let,var
+	- Redeclare --> var
++ 'typeof()'
++ Object
+
+...
+ {
+	 name:"kalyan"
+ }
+ ...
+
+ + Array
+
+ ### Alerts
+  + To generate notification
+	- alert
+	- prompt(to take input from user)
+	- confirm
++ console statements
+	- `console.log()`
+	- `console.warn()`
+	- `console.info()`
+	- `console.error()`
+
++ spread operater
+	- To change array elements from one array to another
+...
+	...VariableName
+...
+
++ Rest parameter
+	+ To handle fuction parameter
+
+...
+	...parameter
+...
+
++ Destructuring of Array and objects
+
++ Functions
+	- function with functionName
+	...
+
+	function demo(){
+		return x+y
+	}
+	demo()
+	...
+	- Anonymous function
+
++ for-in
+	- To get index values of an array
++ for-of
+	- To get elements in an array
+
++ forEach()
++ map()
+
+### DOM
+
+	- Docunent object model
+	- document
+	- History
+	- window
+	- navigator
++ DOM methods
+	- `getElementId()`
+	- `getElementByClassName`
+	- `querySelector`
+	- `innerText`
+	- `textContent`
+	- `append`
+	- `appendChild`
+	- `innerHTML`
+	- `setAttribute()`
+	- `classlist`
+	- `style`
+	- `src`
+
+### JSON
++ JavaScript object Notation
+	- To exchange information between application and server
+
+...
+{
+	"name":"Muhammed Suhel Shaik",
+	"salary":"8 LPA",
+	"Designation":"Junior Developer",
+	"mobile":9177195408
+}
+...
+
++ Ajax call or Promises (fetch API) or axios
+
+
 ### Animation
 
 	
