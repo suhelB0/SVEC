@@ -328,6 +328,94 @@ selector {
 + Ajax call or Promises (fetch API) or axios
 
 
+### ReactJS
+
+### ReactJs Features
+
++ It is a Library
++ it follows components based Architecture
+	- Function component
+	- Class component
+	- pure Component
+	- Higher Order Component
++ It provides virtual DOM
++ It provides JSx (JavaScript and XML)
++ Unidirectional data flow
++ Single page applications
+
+
++ Props
+	- to press data from one component to another component we will use props
+	- props are immutable 
++ Uninon Bank (Fuctional)
+	 - AndhraBank (Functional)
+	 - CorporationBank (Class)
+
+
++ Status
+
+- In react to maintain information we will use States 
+- We can maintain states 
+...
+constructor(){
+	super();
+	this.state={
+
+	}
+}
+...
+
+- To update the state information in class component use `setState()` method
+
++ To update the information in class component we have to follow component life cycle methods
+	- `componentWillReceiveProps()`
+	- `componentWillMount()`
+	- `componentDidMount()`
+	- `componentShouldMount()`
+	- `componentWillUpdate()`
+	- `componentDidUpdate()`
+	- `componentWillUnmount()`
+	
+### Hooks
++ From react 16.8 Hooks are introduced
+
+- Parent - Child1 --> Child2 --> Child3
+
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()`
+
++ Project Environment Setup
+	- [DonloadNodeJS](https://nodejs.org/en/download/)
+	- [DowmloadVisualStudioCode](https://code.visualstudio.com/download)
+	- install nodejs and check versions of `node` and `npm`
+		- `node-v`
+		- `npm-v`
+	- `webpack` and `babel`
+	- `create-react-app`
+		- `npm install create-react-app`
+			- `create-react-app projectname`
+		- `npx create-react-app appname`
+
++ index.html
++ index.js
++ App.js
+	+ IndexPage
+		- nav.js
+		- body.js
+		- footer.js
+	+	 home.js
+		- nav	
+		- body
+		- footer
+	+ Login.js
+	+ Register
+	+ About
+	+ contact
+
+
 ### Animation
 
 	
@@ -337,4 +425,3 @@ selector {
 
 - [color code](https://htmlcolorcodes.com/)
 - [SVG icon]
-
