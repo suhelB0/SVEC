@@ -2,12 +2,14 @@
 // import './App.css';
 
 import ClassComponent from "./componentss/ClassComponent";
+import ListRendering from "./componentss/ListRendering";
 
 function App() {
   return (
     <div>
-         <h1>Welcome</h1>
-         <ClassComponent/>
+         {/* <h1>Welcome</h1> */}
+         {/* <ClassComponent/> */}
+         <ListRendering/>
     </div>
   );
 }

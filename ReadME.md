@@ -387,6 +387,28 @@ constructor(){
 - `useRef()`
 - `useContext()`
 
+### List Rendering
+
+
+### Event handling & Form Handling
+
+- `onChange`
+- `onSubmit`
+- `preventDefault`
+
+### Routong in React
+
++ To navigate (Route) from one component to another
+	- install reqact-router-dom package by using
+	`npm install react-router-dom`
+	- `BrowserRouter`
+	- `Routes`
+	- `Route`
+	- `link`
+	- `element`
+	- `path`
+	                          
+
 + Project Environment Setup
 	- [DonloadNodeJS](https://nodejs.org/en/download/)
 	- [DowmloadVisualStudioCode](https://code.visualstudio.com/download)

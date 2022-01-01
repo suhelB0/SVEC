@@ -10,4 +10,4 @@ export default function StatesinFunctionalComponent() {
             </h1>
         </div>
     )
-}
+}                              
